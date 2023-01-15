@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "db5c94dd0f119ee7",
+    "type": "split",
+    "children": [
+      {
+        "id": "610a5510bc5bc162",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6459ebb17a321f4e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "ee8f6557f5f51f2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/JVM-类加载机制.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb2b2756f7a5f585",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ab38b1eab4a1754",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e59ea2bc7ef2790",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "385cb0d4c2067f3c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "63fa36a798eb2b02",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3953f26df30d8324",
+    "type": "split",
+    "children": [
+      {
+        "id": "45d25fe5afe737f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e2959f2409dbc71",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java/JVM-类加载机制.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7f5d900600b8c6ae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Java/JVM-类加载机制.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "27f22b041219b102",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e2bca87efaaf7483",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java/JVM-类加载机制.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "canvas:Create new canvas": false
+    }
+  },
+  "active": "ee8f6557f5f51f2c",
+  "lastOpenFiles": [
+    "Java/Java垃圾回收算法.md",
+    "Java/Java并发总结.md",
+    "Java/多线程笔试题.md",
+    "死锁.md",
+    "死锁的产生原因及预防措施.md",
+    "进程的概念,与相似概念的区别.md",
+    "KMP算法.md",
+    "日志/2023-01-15.md",
+    "日志/2023-01-14.md",
+    "日志/assets/image-20230114111726515.png"
+  ]
+}
