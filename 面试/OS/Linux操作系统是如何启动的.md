@@ -3,7 +3,7 @@
 
 ### **1、POST (Power On Self Test 开机自检,也可以叫上电自检** 
 linux开机加电后，系统开始开机自检，该过程主要对计算机各种硬件设备进行检测，如CPU、内存、主板、硬盘、CMOS芯片等，如果出现致命故障则停机 如果出现一般故障则会发出声音等提示信号，等待故障清除；若未出现故障，加电自检完成。
-![[Pasted image 20230112235023.png]]
+![[assets/Pasted image 20230112235023.png]]
 这图就是主板上的故障灯,出自硬件茶谈的"装机圣经"
 [【装机教程P14】接驳显示器和电源线_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Ze411A7u5/?spm_id_from=333.788&vd_source=3adda9cad978d53fdf6c33bd02d60d9b)
 
