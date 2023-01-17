@@ -39,7 +39,9 @@ int KMP(char * t, char * p)
 对于求PMT,  首先要明确其含义: 在匹配串pat中, 位置i处, 前缀集合与后缀集合 中 最长字符串的长度
 对于字符串 abababca，它的PMT如下表所示：
 
-![img](日志/assets/v2-e905ece7e7d8be90afc62fe9595a9b0f_720w.png)
+![[assets/image-20230117104539536.png]]
+
+
 
 就像例子中所示的，如果待匹配的[模式字符串](https://www.zhihu.com/search?q=%E6%A8%A1%E5%BC%8F%E5%AD%97%E7%AC%A6%E4%B8%B2&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A281346746%7D)有8个字符，那么PMT就会有8个值。
 
