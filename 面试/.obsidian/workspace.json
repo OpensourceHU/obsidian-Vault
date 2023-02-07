@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题记录/ACM板子.md",
-                "mode": "preview",
+                "file": "日志/2023-02-05.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日志/2023-02-06.md",
+                "file": "日志/2023-02-07.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7e832adc23ee5ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "五种IO模型.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日志/2023-02-06.md",
+                "file": "日志/2023-02-07.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日志/2023-02-06.md",
+                "file": "日志/2023-02-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日志/2023-02-06.md"
+                "file": "日志/2023-02-07.md"
               }
             }
           }
@@ -161,15 +173,15 @@
   },
   "active": "8e02b2e514d873ec",
   "lastOpenFiles": [
+    "五种IO模型.md",
+    "日志/2023-02-07.md",
     "日志/2023-02-05.md",
-    "公司targetList.md",
     "刷题记录/ACM板子.md",
+    "日志/2023-02-06.md",
+    "公司targetList.md",
     "日志/2023-02-04.md",
     "templates/Check List.md",
     "计网/HTTP v1.0 v1.1 v2.0 v3.0.md",
-    "日志/2023-02-02.md",
-    "秒杀项目.md",
-    "未命名.canvas",
-    "Mysql/Mysql常用知识.md"
+    "日志/2023-02-02.md"
   ]
 }
