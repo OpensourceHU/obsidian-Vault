@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日志/2023-02-09.md",
+                "file": "公司targetList.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "erase",
+                "query": "targetlis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日志/2023-02-09.md",
+                "file": "公司targetList.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日志/2023-02-09.md",
+                "file": "公司targetList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日志/2023-02-09.md"
+                "file": "公司targetList.md"
               }
             }
           }
@@ -185,15 +185,15 @@
   },
   "active": "40af45fbef0c051c",
   "lastOpenFiles": [
-    "峨眉旅行计划.md",
+    "日志/2023-02-10.md",
     "日志/2023-02-07.md",
+    "日志/2023-02-09.md",
+    "峨眉旅行计划.md",
     "五种IO模型.md",
     "日志/2023-02-05.md",
     "刷题记录/ACM板子.md",
     "日志/2023-02-06.md",
     "公司targetList.md",
-    "日志/2023-02-04.md",
-    "templates/Check List.md",
-    "计网/HTTP v1.0 v1.1 v2.0 v3.0.md"
+    "日志/2023-02-04.md"
   ]
 }
