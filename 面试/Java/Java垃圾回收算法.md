@@ -26,17 +26,13 @@ tag: Java GC
 
 
 
-并发CMS(Concurrent Mark Sweep):
-
-
+并发标记清除CMS(Concurrent Mark Sweep):
 
 ![image-20220513161219174](Java垃圾回收算法/image-20220513161219174-16524297388425.png)
 
 G1: 堆内存分割成不同区域, 并发地进行回收
 
 ![image-20220513161330886](Java垃圾回收算法/image-20220513161330886-16524297366794.png)
-
-
 
 
 
@@ -49,8 +45,6 @@ G1: 堆内存分割成不同区域, 并发地进行回收
 老年代垃圾收集器:Serial Old 、Parallel Old 、CMS
 
 整堆收集器:G1
-
-
 
 
 
@@ -188,7 +182,7 @@ Garbage First是一款面向服务端应用的垃圾收集器，主要针对配�
 6.所有被同步锁(synchronized关键字)持有的对象
 7.反映Java虚拟机内部情况的JMXBean、JVMTI(JVM Tool Interface)中注册的回调、本地代码缓存等
 
-
+总之: 栈帧中的引用  静态的,与常量的引用  都是可以作为GC Root的
 
 
 
@@ -220,7 +214,8 @@ Minor GC触发条件:
 当Eden区满时触发Minor GC,Minor GC会引发STW(stop the world)。
 
 Full GC触发条件:
-(1）调用System.gc时，系统建议执行Full GC，但是不必然执行(2）老年代空间不足
+(1）调用System.gc时，系统建议执行Full GC，但是不必然执行
+(2）老年代空间不足
 (3）方法区空间不足
 (4)通过Minor GC后进入老年代的平均大小大于老年代的可用内存
 

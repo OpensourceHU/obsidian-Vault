@@ -39,7 +39,7 @@ int KMP(char * t, char * p)
 对于求PMT,  首先要明确其含义: 在匹配串pat中, 位置i处, 前缀集合与后缀集合 中 最长字符串的长度
 对于字符串 abababca，它的PMT如下表所示：
 
-![[assets/image-20230117104539536.png]]
+![[并发项目/assets/image-20230117104539536.png]]
 
 
 
