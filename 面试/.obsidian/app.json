@@ -1,5 +1,6 @@
 {
   "attachmentFolderPath": "./assets",
   "newLinkFormat": "relative",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "vimMode": false
 }
