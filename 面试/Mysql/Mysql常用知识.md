@@ -10,17 +10,6 @@
 
 本来没有计算机没有数据库的时候, 人类检索知识还得去图书馆, 所以检索学是早于数据库诞生的, 两者的设计思路上都是一脉相承的  这样举例也是合理的
 
-## 事务与锁
-
-注意锁按照分类标准不同  有不同的名称
-
-![image-20220402151955948](Mysql常用知识/image-20220402151955948.png)
-
->MYSQL锁机制Ref:[MySQL :: MySQL 8.0 Reference Manual :: 15.7.1 InnoDB Locking](https://dev.mysql.com/doc/refman/8.0/en/innodb-locking.html#innodb-shared-exclusive-locks)
-
-根据锁的粒度来划分： 行锁  or  表锁
-
-根据锁的类型来划分： 排他锁（X锁 exclusive lock写锁） 共享锁（S锁 share lock 读锁） 意向锁（理解成一种标志位就好  表示在更细的粒度上有锁）
 
 > 索引锁的是什么？锁在字段上 还是行上？
 
