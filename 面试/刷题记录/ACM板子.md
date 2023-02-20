@@ -108,7 +108,15 @@ bool operator < (const edge &e1,const edge &e2) {
 
 ### vector queue stack 略
 
-注意其.begin() .end() 返回的迭代器并不是最后一个元素的，而是**前闭后开**的
+注意其.begin() .end() 返回的迭代器并不是最后一个元素的而是前后“哨兵”的位置
+而front() back() 返回的才是第一个和最后一个元素
+
+创建二维vector的方式：
+```
+// assume row as number of rows; col as numbers of columns
+vector<vector<int>> matrix(row,vector<int>(col,0));
+```
+
 
 所有的STL都具有的方法： size/empty/begin/end/clear
 

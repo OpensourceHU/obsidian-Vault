@@ -24,13 +24,8 @@
             "id": "33f7604a06476b32",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mysql/MySQL面试.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -63,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "targetlis",
+                "query": "acm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -80,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mysql/MySQL面试.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mysql/MySQL面试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Mysql/MySQL面试.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -162,15 +154,15 @@
   },
   "active": "33f7604a06476b32",
   "lastOpenFiles": [
-    "数据库设计范式.md",
+    "TCP与UDP协议.md",
+    "OSI七层网络结构.md",
+    "页表.md",
+    "MySQL三大日志： redoLog undoLog binLog.md",
+    "日志/2023-02-20.md",
+    "刷题记录/ACM板子.md",
     "Mysql/MySQL面试.md",
+    "数据库设计范式.md",
     "Mysql/MySQL概览.md",
-    "Redis/Redis的数据结构与编码方式.md",
-    "七层网络结构.md",
-    "Redis/Redis集群.md",
-    "系统设计/负载均衡术.md",
-    "Redis/Redis为什么快.md",
-    "日志/2023-02-18.md",
-    "日志/2023-02-17.md"
+    "Redis/Redis的数据结构与编码方式.md"
   ]
 }
