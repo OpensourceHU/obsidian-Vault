@@ -24,8 +24,13 @@
             "id": "33f7604a06476b32",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Netty关键组件.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -58,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "acm",
+                "query": "netty",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -96,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Netty关键组件.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Netty关键组件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Netty关键组件.md"
+              }
             }
           }
         ]
@@ -154,6 +163,7 @@
   },
   "active": "33f7604a06476b32",
   "lastOpenFiles": [
+    "系统设计/Sytem Design.md",
     "TCP与UDP协议.md",
     "OSI七层网络结构.md",
     "页表.md",
@@ -162,7 +172,6 @@
     "刷题记录/ACM板子.md",
     "Mysql/MySQL面试.md",
     "数据库设计范式.md",
-    "Mysql/MySQL概览.md",
-    "Redis/Redis的数据结构与编码方式.md"
+    "Mysql/MySQL概览.md"
   ]
 }
