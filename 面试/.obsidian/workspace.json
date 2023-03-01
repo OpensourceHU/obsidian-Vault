@@ -8,46 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8fb5300d6395ba02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redis/Redis的数据结构与编码方式.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "09d8c428ae4f659a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "刷题记录/奇技淫巧.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7c92382baa9ea15b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AMD超频.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题记录/奇技淫巧.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -131,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题记录/奇技淫巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "刷题记录/奇技淫巧.md"
-              }
+              "state": {}
             }
           },
           {
@@ -184,19 +147,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "09d8c428ae4f659a",
+  "active": "7c92382baa9ea15b",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "AMD超频.md",
+    "未命名 2.canvas",
+    "Redis/Redis的数据结构与编码方式.md",
+    "未命名 1.canvas",
+    "刷题记录/奇技淫巧.md",
     "看板.md",
     "Elastic Search学习.md",
-    "Redis/Redis的数据结构与编码方式.md",
-    "刷题记录/奇技淫巧.md",
     "索引覆盖 索引下推 回表.md",
     "ThreadLocal.md",
     "Java四大引用类型.md",
     "公司targetList.md",
-    "AMD超频.md",
     "页表.md",
-    "未命名.canvas",
     "TCP拥塞控制与流量控制.md",
     "日志/2023-02-26.md",
     "Spring/未命名看板.md",
@@ -211,7 +176,6 @@
     "日志/2023-02-22.md",
     "Java并发总结/AQS与ReentrantLock.md",
     "TCP与UDP协议.md",
-    "计网面试.md",
-    "Java总结.md"
+    "计网面试.md"
   ]
 }
