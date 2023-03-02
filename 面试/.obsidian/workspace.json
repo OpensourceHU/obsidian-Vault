@@ -11,8 +11,13 @@
             "id": "7c92382baa9ea15b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OS/清华OS课程.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,10 +49,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "二分",
+                "query": "OS",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -61,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OS/清华OS课程.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -97,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OS/清华OS课程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OS/清华OS课程.md"
+              }
             }
           },
           {
@@ -149,13 +159,13 @@
   },
   "active": "7c92382baa9ea15b",
   "lastOpenFiles": [
+    "看板.md",
     "未命名.canvas",
     "AMD超频.md",
     "未命名 2.canvas",
     "Redis/Redis的数据结构与编码方式.md",
     "未命名 1.canvas",
     "刷题记录/奇技淫巧.md",
-    "看板.md",
     "Elastic Search学习.md",
     "索引覆盖 索引下推 回表.md",
     "ThreadLocal.md",
