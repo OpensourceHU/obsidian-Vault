@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:Java",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -13,10 +13,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
+  "centerStrength": 0.360824742268041,
+  "repelStrength": 9.79381443298969,
+  "linkStrength": 0.860824742268041,
   "linkDistance": 250,
-  "scale": 0.7132754626224683,
+  "scale": 0.7132754626224698,
   "close": true
 }

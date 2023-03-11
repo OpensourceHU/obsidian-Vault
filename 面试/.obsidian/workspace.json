@@ -37,51 +37,12 @@
             }
           },
           {
-            "id": "cda8b8b764cd2a5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ubuntu设置环境变量.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "efb0b4999c06bd3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试话术.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e737b3716aed5388",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Golang面试.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ef69fce2d2d3e3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "日志/2023-03-07.md",
+                "file": "Elastic Search学习.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -135,7 +96,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -155,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Golang面试.md",
+                "file": "Elastic Search学习.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -172,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Golang面试.md",
+                "file": "Elastic Search学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Golang面试.md"
+                "file": "Elastic Search学习.md"
               }
             }
           },
@@ -212,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342,
-    "collapsed": true
+    "width": 342
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,22 +183,30 @@
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "e737b3716aed5388",
+  "active": "385cb0d4c2067f3c",
   "lastOpenFiles": [
+    "日志/2023-03-11.md",
     "面试话术.md",
-    "Golang面试.md",
-    "Ubuntu设置环境变量.md",
     "Go/Go语言学习笔记.md",
+    "Ubuntu设置环境变量.md",
+    "Elastic Search学习.md",
+    "日志/2023-03-03.md",
+    "assets/image-20230310214628495.png",
+    "日志/2023-03-07.md",
+    "未命名 1.canvas",
+    "看板.md",
+    "系统设计/Sytem Design.md",
+    "日志/2023-03-10.md",
+    "Golang面试.md",
     "Java/JVM-类加载机制.md",
     "设计模式/未命名.md",
-    "日志/2023-03-07.md",
     "设计模式",
     "计网面试.md",
     "并发项目/五种IO模型.md",
-    "日志/2023-03-03.md",
     "redis面试总结.md",
     "Redis/Redis集群.md",
     "日志/2023-01-10.md",
@@ -247,15 +216,9 @@
     "OS/清华OS课程.md",
     "未命名.canvas",
     "刷题记录/ACM板子.md",
-    "看板.md",
     "AMD超频.md",
     "未命名 2.canvas",
-    "未命名 1.canvas",
     "刷题记录/奇技淫巧.md",
-    "Elastic Search学习.md",
-    "Mysql/索引覆盖 索引下推 回表.md",
-    "ThreadLocal.md",
-    "Java四大引用类型.md",
-    "公司targetList.md"
+    "Mysql/索引覆盖 索引下推 回表.md"
   ]
 }
