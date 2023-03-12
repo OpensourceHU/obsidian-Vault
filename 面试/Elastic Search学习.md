@@ -1,4 +1,16 @@
-https://www.youtube.com/watch?v=CCTgroOcyfM&list=PL_mJOmq4zsHZYAyK606y7wjQtC0aoE6Es&index=2
+## Resource
+youtube地址
+https://www.youtube.com/watch?v=CCTgroOcyfM&list=PL_mJOmq4zsHZYAyK606y7wjQtC0aoE6Es&index=1
+
+文档:
+第一课
+https://github.com/LisaHJung/Part-1-Intro-to-Elasticsearch-and-Kibana
+第二课
+https://github.com/LisaHJung/Part-2-Understanding-the-relevance-of-your-search-with-Elasticsearch-and-Kibana-
+第三课
+https://github.com/LisaHJung/Part-3-Running-full-text-queries-and-combined-queries-with-Elasticsearch-and-Kibana
+第四课
+https://github.com/LisaHJung/Part-4-Running-Aggregations-with-Elasticsearch-and-Kibana
 
 ElasticSearch 是一个分布式的搜索引擎 可以搭配Kibana等ES系工具配套使用
 ES环境搭建: 可以用这个dockerFile ,然后在本机的5601开Kibana即可完成学习环境的搭建
@@ -42,7 +54,8 @@ networks:
   elasticnet: {}
 ```
 
-## 查全率(Recall)与查准率(Precision)
+## 基础概念
+### 查全率(Recall)与查准率(Precision)
 如果一次搜索, 结果可以分为相关与不相关即relevant与unrelevant, 
 
 Precision查准率是指, 所有你搜索到的结果中 有多少是相关的
