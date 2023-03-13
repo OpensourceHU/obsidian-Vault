@@ -20,7 +20,7 @@ recevfrom函数读取内核时, 系统立刻返回一个数据是否准备就绪
 
 Linux提供了 select/poll/epoll三种IO多路复用模型, 简单的说就是让请求阻塞在复用器上(selector)
 
-其中 select与poll底层一个是数组 一个是链表; 将待读写的socket fd注册到selector上 形成一个注册表,不断遍历这个注册表,就知道哪些socket的IO就绪了
+其中 select与poll底层一个是数组 一个是链表; 将待读写的socket fd注册到selector上 形成一个注册表,不断遍历这个注册表,就知道哪些socket的IO就绪了(轮询)
 
 其中select可注册的fd是有限的 (默认是1024可以重新编译FD_SETSIZE这个宏来重置) poll理论上是无限的
 
