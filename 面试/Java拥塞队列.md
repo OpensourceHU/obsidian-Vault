@@ -1,0 +1,5 @@
+阻塞队列可以理解为一个buffer, 只是这个buffer的规则与队列的具体实现有关
+比如 
+ArrayBlockingQueue 是有界的 
+LinkedBlockingQueue是无界的, 
+PriorityBlockingQueue支持线程优先级

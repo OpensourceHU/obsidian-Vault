@@ -6,21 +6,7 @@
       {
         "id": "88d65bd995806efe",
         "type": "tabs",
-        "dimension": 50,
         "children": [
-          {
-            "id": "efb0b4999c06bd3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "日志/2023-03-14.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
           {
             "id": "14e875314a98625b",
             "type": "leaf",
@@ -35,91 +21,12 @@
             }
           },
           {
-            "id": "cdbaa9f0741deccb",
+            "id": "a631e736dbd47b35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "最左前缀原则.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "137bcc104568a64b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MVCC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f99da9162173bfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mysql/MySQL面试.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d4b9069395e1fbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MVCC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3518cc8b97a8b25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redis/Redis集群.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            },
-            "group": "baaa5d20ba5f57b7"
-          },
-          {
-            "id": "a7f71a1a1b47fdda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "系统设计/负载均衡术.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53e937576c69546f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MySQL锁事.md",
+                "file": "计网/HTTP v1.0 v1.1 v2.0 v3.0.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -127,50 +34,7 @@
             }
           }
         ],
-        "currentTab": 7
-      },
-      {
-        "id": "8f42ccfbe9398105",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "b97531b2ff55861a",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Redis/Redis集群.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              }
-            },
-            "group": "baaa5d20ba5f57b7"
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ref",
+                "query": "设计模式",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -215,8 +79,24 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "8d4b9069395e1fbf",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "未命名 2.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -229,6 +109,7 @@
       {
         "id": "45d25fe5afe737f1",
         "type": "tabs",
+        "dimension": 59.59302325581395,
         "children": [
           {
             "id": "4e2959f2409dbc71",
@@ -236,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "系统设计/负载均衡术.md",
+                "file": "计网/HTTP v1.0 v1.1 v2.0 v3.0.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -253,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "系统设计/负载均衡术.md",
+                "file": "计网/HTTP v1.0 v1.1 v2.0 v3.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "系统设计/负载均衡术.md"
+                "file": "计网/HTTP v1.0 v1.1 v2.0 v3.0.md"
               }
             }
           },
@@ -290,11 +171,52 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "f251736e4a1b08b9",
+        "type": "tabs",
+        "dimension": 40.406976744186046,
+        "children": [
+          {
+            "id": "197490e839074015",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "计网/HTTP v1.0 v1.1 v2.0 v3.0.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 0.9421875,
+                  "lineSizeMultiplier": 1.29947916666667,
+                  "collapse-forces": false,
+                  "centerStrength": 0.838541666666667,
+                  "repelStrength": 10,
+                  "linkStrength": 0.927083333333333,
+                  "linkDistance": 250,
+                  "scale": 0.7132754626224441,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 342,
-    "collapsed": true
+    "width": 383
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,39 +229,44 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "a7f71a1a1b47fdda",
+  "active": "a631e736dbd47b35",
   "lastOpenFiles": [
+    "计网面试.md",
+    "Java拥塞队列.md",
+    "Java并发总结/线程池.md",
+    "Java总结.md",
+    "Java/JVM内存区域.md",
+    "Java/集合类.md",
+    "Java/HashMap&Hashtable&ConcurrentHashmap.md",
+    "Java/Java垃圾回收算法.md",
+    "设计模式.md",
+    "日志/2023-03-16.md",
+    "Java/多线程笔试题.md",
+    "创建者模式.md",
+    "assets/image-20230316104218166.png",
+    "单例模式.md",
+    "工厂模式.md",
+    "面向对象设计的原则.md",
+    "assets/image-20230316101835846.png",
+    "assets/image-20230316101828126.png",
+    "assets/image-20230316101353469.png",
+    "OS/OS常见面试题.md",
+    "未命名 3.canvas",
+    "ThreadLocal.md",
+    "最左前缀原则.md",
+    "日志/2023-03-14.md",
+    "MVCC.md",
+    "未命名 2.canvas",
+    "Mysql/MySQL面试.md",
     "Redis/Redis集群.md",
+    "日志/2023-03-15.md",
+    "系统设计/负载均衡术.md",
     "redis面试总结.md",
     "redis过期策略与删除策略.md",
-    "Redis/Redis的数据结构与编码方式.md",
-    "MySQL三大日志： redoLog undoLog binLog.md",
-    "MVCC.md",
-    "Redis/Redis为什么快.md",
-    "MySQL锁事.md",
-    "Mysql/MySQL面试.md",
-    "事务的隔离级别.md",
-    "B+ Tree.md",
-    "数据库设计范式.md",
-    "索引.md",
-    "最左前缀原则.md",
-    "templates/Check List.md",
-    "缓存数据一致性问题.md",
-    "ThreadLocal.md",
-    "日志/2023-03-14.md",
-    "日志/2023-02-26.md",
-    "日志/2023-02-24.md",
-    "日志/2023-02-18.md",
-    "日志/2023-02-14.md",
-    "日志/2023-02-07.md",
-    "日志/2023-02-04.md",
-    "日志/2023-01-30.md",
-    "日志/2023-01-29.md",
     "Java/assets/image-20230312171629982.png",
     "assets/image-20230310214628495.png",
     "未命名 1.canvas",
     "设计模式",
-    "未命名.canvas",
-    "未命名 2.canvas"
+    "未命名.canvas"
   ]
 }
