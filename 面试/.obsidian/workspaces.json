@@ -1,0 +1,240 @@
+{
+  "workspaces": {
+    "1": {
+      "main": {
+        "id": "db5c94dd0f119ee7",
+        "type": "split",
+        "children": [
+          {
+            "id": "88d65bd995806efe",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "14e875314a98625b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ThreadLocal.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a631e736dbd47b35",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "未命名 7.canvas",
+                    "viewState": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "fb2b2756f7a5f585",
+        "type": "split",
+        "children": [
+          {
+            "id": "4ab38b1eab4a1754",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8e59ea2bc7ef2790",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "385cb0d4c2067f3c",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "63fa36a798eb2b02",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8d4b9069395e1fbf",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "未命名 2.canvas",
+                    "viewState": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "3953f26df30d8324",
+        "type": "split",
+        "children": [
+          {
+            "id": "45d25fe5afe737f1",
+            "type": "tabs",
+            "dimension": 59.593023255813954,
+            "children": [
+              {
+                "id": "4e2959f2409dbc71",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "未命名 7.canvas",
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "7f5d900600b8c6ae",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "未命名 7.canvas",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "27f22b041219b102",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "e2bca87efaaf7483",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "未命名 7.canvas"
+                  }
+                }
+              },
+              {
+                "id": "08b3ecd952190d3e",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "f251736e4a1b08b9",
+            "type": "tabs",
+            "dimension": 40.406976744186046,
+            "children": [
+              {
+                "id": "197490e839074015",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "未命名 7.canvas",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 2,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": -0.6,
+                      "nodeSizeMultiplier": 0.686979166666667,
+                      "lineSizeMultiplier": 1.63125,
+                      "collapse-forces": false,
+                      "centerStrength": 0.744791666666667,
+                      "repelStrength": 10,
+                      "linkStrength": 0.927083333333333,
+                      "linkDistance": 250,
+                      "scale": 0.7132754626224442,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 383
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "canvas:新建白板": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "a631e736dbd47b35"
+    }
+  },
+  "active": "1"
+}
