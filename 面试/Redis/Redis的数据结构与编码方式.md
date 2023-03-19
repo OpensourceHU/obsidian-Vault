@@ -1,18 +1,58 @@
-## Redis的数据结构与编码方式
+## 引入
 
-![Redis数据结构](Redis的数据结构与编码方式/16e68ee882352143tplv-t2oaga2asx-zoom-in-crop-mark1304000.awebp)
+Redis设计了一套对象系统, 共有五大对象 string hash list set sortedSet 
+根据场景的不同 每种对象在不同的情况下 会采取不同的编码格式. 不同的编码格式与不同的底层数据结构一一对应
+所以  
+对象类型 => 编码方式  1:N
+编码方式 => 数据结构 1:1
 
-redis有五大数据类型（五大对象）： string hash list set sortedSet， 但是redis构建了一个简单的对象系统， 每种对象使用了多种数据结构来实现。并实现了基于引用计数的GC。
-redis是基于KV的NoSQL， 其中的键必然是一个String对象，而值可以是五大数据类型之一（String、Hash、List、Set、SortedSet）
-
+我们可以通过`object encoding KEY`命令来获取对应key的编码方式
+通过 `type KEY`命令来获取对应key的对象类型
+### Redis的数据结构与编码方式
 ![五大数据类型](Redis的数据结构与编码方式/image-20220509114622023-16520679952726-16520723484878.png)
 
 ![编码方式(底层数据结构)](Redis的数据结构与编码方式/image-20220509114632711-16520679942495-16520723498169.png)
 
-## 常见的底层数据结构
+他们之间的对应关系可以查看这张图
+![img](assets/268981-20160226150739333-1493121959.png)
 
-### SDS（Simple Dynamic String）embstr的实现
+接下来. 逐一介绍每种对象和它在不同条件下的编码方式(底层数据结构)
 
+## 字符串对象及其编码
+### intro
+
+源码: [redis/sds.h at unstable · redis/redis (github.com)](https://github.com/redis/redis/blob/unstable/src/sds.h)
+
+对于字符串类型, 可以用 set key value来进行设置, value就为字符串的字面量
+```
+127.0.0.1:6379> set sayHi "Hello World!"
+OK
+127.0.0.1:6379> get sayHi
+"Hello World!"
+```
+
+特别地 ,当这个value为一个数字时 需要分情况讨论
+
+1. 如果小于LONG_MAX的范围，可以用int来存储
+2. 如果为浮点或数字太大， 可以用raw（即SDS）或embstr（SDS的对象形式）进行存储
+```
+127.0.0.1:6379> set BIGVALUE 99999999999999999999999999999999999999999999999999999999999999
+OK
+127.0.0.1:6379> get BIGVALUE
+"99999999999999999999999999999999999999999999999999999999999999"
+127.0.0.1:6379> OBJECT encoding BIGVALUE
+"raw"
+# 可以看到 如果一个数字的值非常大 它的存储是用raw(SDS)来存储的
+127.0.0.1:6379> set smallValue 12341234
+OK
+127.0.0.1:6379> get smallValue
+"12341234"
+127.0.0.1:6379> OBJECT encoding smallValue
+"int"
+# 如果数字不大  则可以通过int来存储
+```
+
+### REDIS_ENCODING_RAW 简单动态字符串SDS
 ```cpp
 struct sdshdr{
     int len;   //记录string长度
@@ -31,13 +71,61 @@ struct sdshdr{
 
 4. **内存预分配,惰性空间释放**
 
-避免重分配:当有预留空间没有使用时,优先使用预留的空间 而不用重新申请空间,  redis的场景中string可能频繁改动
 
-内存预分配:先分配够用的,不够再扩容,类似于vector的实现
 
-惰性空间释放: 在空间不足时,可以释放free记录的空间
+**内存预分配**:先分配够用的,不够再扩容,类似于vector
+其策略:
 
-### HashTable: 字典的实现方案
+1. SDS有效长度( 即buf数组的长度)小于1M, 则预分配等同于当前buf数组长度的空间 free == len
+2. 如果超过1M   则预分配1M的空间  free = len + 1M
+
+**避免重分配**:当有预留空间没有使用时,优先使用预留的空间 而不用重新申请空间,  redis的场景中对存取速度要求严格的 string可能频繁改动, 如果内存重分配的次数过多会造成性能的下降.
+
+**惰性空间释放**: 在空间不足时,可以惰性地释放free记录的空间, 所以不用担心预分配带来的存储压力
+
+### REDIS_ENCODING_INT
+复用C语言里的LONG  
+
+## 哈希对象及其编码
+### intro
+数据量小用[[#REDIS_ENCODING_ZIPLIST 压缩列表]]实现，数据量大转[[#REDIS_ENCODING_HT 哈希表]]
+
+具体来说，默认（可以修改）当
+
+- K，V的长度都小于64字节
+
+- 键值对的数量小于512时
+
+使用zipList来省空间，否则转Hashtable
+
+### REDIS_ENCODING_ZIPLIST 压缩列表
+
+源码: [redis/ziplist.h at unstable · redis/redis (github.com)](https://github.com/redis/redis/blob/unstable/src/ziplist.h)
+
+![压缩列表的组成部分](Redis的数据结构与编码方式/image-20220509113008472-165207235837311.png)
+
+
+![字段详解](Redis的数据结构与编码方式/image-20220509113041721-16520670436911-165207235936012.png)
+
+一个压缩列表ZipList , 头部记录了 整个列表的字节数 列表中的节点个数 尾哨兵位置
+
+中间由X个列表节点Entry构成,   而每个entry节点包括
+
+![image-20230318175339779](assets/image-20230318175339779.png)
+
+previous_entry_len 记录上一个节点的长度，用于从后往前遍历； encoding记录当前节点的长度与数据类型；content记录数据内容,是一个字节数组或整数。
+
+#### 如何遍历压缩列表
+
+我们可以看出: 对于压缩列表, 并没有指针, 且每个元素长度不固定 无法像数组那样通过偏移量随机寻址
+
+其正向遍历是通过encoding确定每个entry的长度 来进行跳转的
+
+反向遍历是通过preious_entry_length这个字段存储的前一元素长度 来进行反向跳转的
+
+### REDIS_ENCODING_HT 哈希表
+
+源码 哈希表实现[redis/dict.c at unstable · redis/redis (github.com)](https://github.com/redis/redis/blob/unstable/src/dict.c)
 
 ```cpp
 typedef struct dictht{
@@ -76,7 +164,24 @@ hash表进行2的幂次扩容,hash表可能非常大,一次性扩容可能导致
 
 ![image-20220509104750126](Redis的数据结构与编码方式/image-20220509104750126-165207235559510.png)
 
-### List： 双端带头链表
+
+
+
+
+## 列表(List)对象及其编码
+
+### intro
+
+当满足以下条件时使用[[#REDIS_ENCODING_ZIPLIST 压缩列表]]编码
+
+1. 当列表对象的所有元素大小都小于64 Byte
+
+2. 当元素个数小于512
+
+否则使用LinedList
+
+
+### REDIS_ENCODING_LINKEDLIST 双端带头链表
 
 ```cpp
 //链表节点
@@ -100,25 +205,29 @@ typedef struct list{
 }
 ```
 
-没啥好讲的。。
+## 集合(Set)对象及其编码
 
-### zipList 压缩列表
+### intro
 
-![压缩列表的组成部分](Redis的数据结构与编码方式/image-20220509113008472-165207235837311.png)
+元素数量<512 && 元素都是整数值 使用 [[#REDIS_ENCODING_INTSET 整数集合]]
 
-当列表的数据量较小的时候，采用顺序存储比较省空间，而且遍历的时间复杂度是可以忍受的，那么优先采用压缩列表而不是双端链表。
+否则用[[#REDIS_ENCODING_HT 哈希表]]
 
-![字段详解](Redis的数据结构与编码方式/image-20220509113041721-16520670436911-165207235936012.png)
+### REDIS_ENCODING_INTSET 整数集合
 
-一个压缩列表ZipList =  节点个数、尾节点地址、所占内存 + N个entry节点
+[redis/intset.h at unstable · redis/redis (github.com)](https://github.com/redis/redis/blob/unstable/src/intset.h)
 
-而一个entry节点包括
+其实现复用了zipedList的底层数据结构, 只是这个list一直被intSet维护着有序的状态(很简单, sort即可)
 
-![image-20220509113552325](Redis的数据结构与编码方式/image-20220509113552325-16520673541924-165207236051613.png)
+这样就可以用二分查找去查询元素了
 
-previous_entry_len 记录上一个节点的长度，用于从后往前遍历； encoding记录当前节点的长度与数据类型；content记录数据内容。
 
-### SkipList 跳表（有序集合的实现之一）
+## 有序集合(ZSET)对象及其编码
+### intro
+当 元素数量<128 && 每个元素成员长度 < 64Byte 使用[[#REDIS_ENCODING_ZIPLIST 压缩列表]]
+否则使用 [[#REDIS_ENCODING_SKIPLIST 跳表]]
+
+### REDIS_ENCODING_SKIPLIST 跳表
 
 ![一个跳表](Redis的数据结构与编码方式/image-20220509110853250.png)
 
@@ -132,24 +241,20 @@ previous_entry_len 记录上一个节点的长度，用于从后往前遍历； 
 
 具体介绍可以参考： [Skip List--跳表（全网最详细的跳表文章没有之一） - 简书 (jianshu.com)](https://www.jianshu.com/p/9d8296562806)
 
-### intSet 整数集合
 
-底层实现就是一个有序数组，返璞归真了属于是。
 
-查找是二分查找，复杂度O(logN)。 更新删除O(N) 
 
-<img src="Redis的数据结构与编码方式/image-20220509112437026.png" alt="intset" style="zoom: 25%;" />
 
-## 编码类型与底层实现
 
-### String对象的实现
+## 总结编码类型与底层实现
 
-1. 如果小于LONG_MAX的范围，可以用int来存储
-2. 如果为浮点或数字太大， 可以用raw（即SDS）或embstr（SDS的对象形式）进行存储
+### String对象的存储
+[[#REDIS_ENCODING_RAW 简单动态字符串SDS]] (字符串或大于LONG_MAX的数字)
+[[#REDIS_ENCODING_INT]]
 
 ### Hash对象的存储
 
-数据量小用ziplist实现，数据量大转HashTable
+数据量小用[[#REDIS_ENCODING_ZIPLIST 压缩列表]]实现，数据量大转[[#REDIS_ENCODING_HT 哈希表]]
 
 具体来说，默认（可以修改）当
 
@@ -161,16 +266,21 @@ previous_entry_len 记录上一个节点的长度，用于从后往前遍历； 
 
 ### List对象的存储
 
-数据量小zipList 数据量大LinkedList
+当满足以下条件时使用[[#REDIS_ENCODING_ZIPLIST 压缩列表]]编码
+
+1. 当列表对象的所有元素大小都小于64 Byte
+
+2. 当元素个数小于512
+
+否则使用[[#REDIS_ENCODING_LINKEDLIST 双端带头链表]]
 
 ### Set对象的存储
 
-元素数量<512 && 元素都是整数值  用intset编码
+元素数量<512 && 元素都是整数值 使用 [[#REDIS_ENCODING_INTSET 整数集合]]
 
-否则用Hashtable编码
+否则用[[#REDIS_ENCODING_HT 哈希表]]
 
 ### zSet对象的存储
 
-当 元素数量<128 && 每个元素成员长度 < 64Byte 使用zipList编码 
-
-否则使用 skipList编码
+当 元素数量<128 && 每个元素成员长度 < 64Byte 使用[[#REDIS_ENCODING_ZIPLIST 压缩列表]]
+否则使用 [[#REDIS_ENCODING_SKIPLIST 跳表]]

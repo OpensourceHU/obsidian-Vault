@@ -170,7 +170,8 @@ public final void acquire(int arg) {
 
 ### release && tryRelease
 
-释放锁, 可以用以实现Lock.unlock() 方法  tryRelease与tryAcquire一样 开放给调用方覆写
+释放锁, 可以用以实现Lock.unlock() 方法  
+tryRelease与tryAcquire一样 开放给调用方覆写
 
 ```java
 protected boolean tryRelease(int arg) {  //开放给调用方覆写
@@ -191,5 +192,6 @@ public final boolean release(int arg) {  //将后续线程唤醒, 让它们来�
 
 
 ## ReentrantLock
-
 ReentrantLock基于AQS，在并发编程中可以实现公平锁与非公平锁来对资源进行同步，同时与synchronized一样，reentrantLock支持可重入。除此之外ReentrantLock在调度上更加灵活
+
+[[ReentrantLock]]
