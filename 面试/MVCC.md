@@ -26,11 +26,12 @@ undoLog, 一个记录了所有修改操作的反向操作的日志[[MySQL三大�
 
 2. 然后把该行数据拷贝到undo log中，作为旧记录，即在undo log中有当前行的拷贝副本
 
-3. 拷贝完毕后，修改该行name为Tom，并且修改隐藏字段的事务ID为当前事务1的ID,，回滚指针`roll pointer`指向拷贝到undo log的副本记录，即表示我的上一个版本就是它
+3. 拷贝完毕后，修改该行，并且修改隐藏字段的事务ID为当前事务的ID，回滚指针`roll pointer`指向拷贝到undo log的副本记录，即表示其上一个版本
 
 4. 事务提交后，释放锁
 
-这样 通过`roll pointer`不断地指向undolog中某行记录 遍历这个链表, 相当于可以获得一条版本链
+这样 通过`roll pointer`不断地指向undolog中某行记录 
+遍历这个链表, 相当于可以获得一条版本链
 
 这个版本链上, 不同的记录都有一个trx_id  通过比较trx_id 就可以知道哪些是当前事务可见的,哪些是不可见的 是为ReadView
 
@@ -40,16 +41,3 @@ undoLog, 一个记录了所有修改操作的反向操作的日志[[MySQL三大�
 
 在RC的隔离级别下: 每个快照读会读到最新的ReadView,别的事务的提交可见
 
-
-
-
-
-
-
-
-
-
-
-------
-
-著作权归@pdai所有 原文链接：https://pdai.tech/md/db/sql-mysql/sql-mysql-mvcc.html

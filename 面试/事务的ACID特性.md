@@ -14,5 +14,5 @@ Ref: [ACID - Wikipedia](https://en.wikipedia.org/wiki/ACID)
 这里要注意, 一致性 Consistency这个概念 在
 [[事务的ACID特性]]
 [[系统设计/负载均衡术#一致性哈希分区]]
-[[CAP theory]] 
+[[CAP theorem]] 
 这几个场景下, 会有一词多义的现象, 具体是什么意思需要联系上下文来确定
