@@ -241,8 +241,7 @@ typedef struct list{
 
 具体介绍可以参考： [Skip List--跳表（全网最详细的跳表文章没有之一） - 简书 (jianshu.com)](https://www.jianshu.com/p/9d8296562806)
 
-
-
+[[../redis为什么使用跳表而不是红黑树]]
 
 
 
