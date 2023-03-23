@@ -117,6 +117,10 @@ bool operator < (const edge &e1,const edge &e2) {
 vector<vector<int>> matrix(row,vector<int>(col,0));
 ```
 
+复制一个vector的值到另外一个vector,可以用assign方法
+`void assign(const_iterator first,const_iterator last);`
+用法:
+`vector<int> b;b.assign(a.begin(),a.end());`
 
 所有的STL都具有的方法： size/empty/begin/end/clear
 
