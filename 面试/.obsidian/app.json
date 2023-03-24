@@ -3,5 +3,6 @@
   "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
   "vimMode": false,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "promptDelete": false
 }

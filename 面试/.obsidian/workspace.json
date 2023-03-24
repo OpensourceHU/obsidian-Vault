@@ -4,24 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e89e29cf357fe86a",
+        "id": "5edf3cf61d49f08a",
         "type": "tabs",
         "children": [
           {
-            "id": "5e70d2688a93ede4",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "15c6f33f64fe4bbf",
+            "id": "2e71a47698793f15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日志/2023-03-22.md",
+                "file": "redis面试总结.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -29,41 +21,33 @@
             }
           },
           {
-            "id": "3c22357965bdd17b",
+            "id": "a198d0cb9fa21e28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis/Redis的数据结构与编码方式.md",
-                "mode": "source",
+                "file": "TCP与UDP协议.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "7b9b0111803afce5",
+            "id": "571d7e80c843b48b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis/Redis的数据结构与编码方式.md",
+                "file": "计网面试.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "8fbb1707a38d1a9e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "垃圾",
+                "query": "redis",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -109,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TCP与UDP协议.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -147,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TCP与UDP协议.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TCP与UDP协议.md"
+              }
             }
           },
           {
@@ -180,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "f251736e4a1b08b9",
@@ -193,10 +180,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "TCP与UDP协议.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 2,
+                  "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -223,7 +211,7 @@
                   "repelStrength": 10,
                   "linkStrength": 0.911458333333333,
                   "linkDistance": 99,
-                  "scale": 0.7132754626224459,
+                  "scale": 0.7132754626224482,
                   "close": true
                 }
               }
@@ -246,34 +234,35 @@
       "canvas:新建白板": false
     }
   },
-  "active": "8fbb1707a38d1a9e",
+  "active": "a198d0cb9fa21e28",
   "lastOpenFiles": [
-    "Java四大引用类型.md",
-    "Java/Java垃圾回收算法.md",
-    "并发项目/五种IO模型.md",
-    "刷题记录/ACM板子.md",
-    "日志/2023-03-23.md",
-    "互联网大中小厂科普.md",
-    "redis为什么使用跳表而不是红黑树.md",
-    "慢查询日志.md",
-    "算法杂项/KMP算法.md",
-    "运维/RSA算法.md",
-    "事务的ACID特性.md",
-    "Redis/Redis集群.md",
-    "系统设计/负载均衡术.md",
-    "OS/进程的概念,与相似概念的区别.md",
-    "OS/一些操作系统的通识.md",
-    "OS/Linux操作系统是如何启动的.md",
-    "运维/Linux根目录结构.md",
-    "redis面试总结.md",
-    "Redis/Redis的数据结构与编码方式.md",
-    "日志/2023-03-22.md",
-    "计网面试.md",
+    "OSI七层网络结构.md",
+    "TCP与UDP协议.md",
+    "2PC保证强一致性.md",
+    "Netty关键组件.md",
+    "NettyRPC项目.md",
+    "Java/JVM内存区域.md",
+    "Java总结.md",
+    "Java/面向对象.md",
+    "日志/2023-03-24.md",
+    "OS/OS常见面试题.md",
+    "Golang面试.md",
+    "系统设计/系统设计Sytem Design.md",
+    "并发项目/RabbitMQ Learn.md",
     "Spring-AOP实现.md",
-    "Go/Go语言学习笔记.md",
-    "设计模式.md",
-    "单例模式.md",
-    "工厂模式.md",
+    "计网面试.md",
+    "世界起源.md",
+    "日志/2023-02-10.md",
+    "OS/OS 面试总结.md",
+    "redis面试总结.md",
+    "系统设计/负载均衡术.md",
+    "缓存数据一致性问题.md",
+    "Mysql/MySQL面试.md",
+    "日志/2023-02-26.md",
+    "OS/进程 线程 协程.md",
+    "TCP报文结构.md",
+    "assets/image-20230323231743702.png",
+    "Java四大引用类型.md",
     "未命名.canvas",
     "assets/a9bee91c.jpg",
     "assets/a9bee91c-1679368722202-1.jpg",
@@ -290,7 +279,6 @@
     "未命名 1.canvas",
     "未命名 4.canvas",
     "assets/image-20230316104218166.png",
-    "assets/image-20230316101835846.png",
     "未命名 3.canvas",
     "设计模式"
   ]

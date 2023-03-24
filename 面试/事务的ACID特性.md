@@ -12,7 +12,7 @@ Ref: [ACID - Wikipedia](https://en.wikipedia.org/wiki/ACID)
 **D: Durability 永久性**  永久性保证事务一旦提交则不会更改, 即便系统崩溃
 
 这里要注意, 一致性 Consistency这个概念 在
-[[事务的ACID特性]]
-[[系统设计/负载均衡术#一致性哈希分区]]
-[[CAP theorem]] 
+**事务的ACID特性**
+**系统设计/负载均衡术#一致性哈希分区**
+**CAP theorem**
 这几个场景下, 会有一词多义的现象, 具体是什么意思需要联系上下文来确定
