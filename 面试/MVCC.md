@@ -1,9 +1,9 @@
-MVCC Muti-version Concurrent Control多版本并发控制
+MVCC Muti-version Concurrent Control多版本并发控制,解决的是并发读状况下的数据一致性问题, [[事务的ACID特性]]中的I, 隔离性的体现
 在并发读的时候 , 利用版本链 在不同的[[事务的隔离级别]]下形成不同的readView
 
 每一行数据有三个隐藏字段
 
-- db_trx_id
+- db_trx_id(事务ID, 比较事务间是否可见时有用)
 
     最近修改(修改/插入)`事务ID`：记录`创建`这条记录/`最后一次修改`该记录的`事务ID`。
 
@@ -11,7 +11,7 @@ MVCC Muti-version Concurrent Control多版本并发控制
 
     `回滚指针`，指向`这条记录`的`上一个版本`（存储于rollback segment里）
 
-- db_row_id
+- db_row_id(这个在MVCC中用不到, 可以忽略)
 
     隐含的`自增ID`（隐藏主键），如果数据表`没有主键`，InnoDB会自动以db_row_id产生一个`聚簇索引`。
 
