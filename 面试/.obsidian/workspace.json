@@ -11,13 +11,8 @@
             "id": "892d7a7284142c24",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "设计模式.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -62,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "raft",
+                "query": "SOLID",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -79,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "设计模式.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,7 +158,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "设计模式.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -222,20 +213,23 @@
   },
   "active": "892d7a7284142c24",
   "lastOpenFiles": [
-    "HTTP状态码.md",
-    "设计模式.md",
-    "MVCC.md",
-    "事务的ACID特性.md",
-    "Mysql/MySQL面试.md",
+    "世界起源.md",
+    "并发项目/阻塞 vs 异步.md",
+    "面向对象设计的原则.md",
+    "序列化选型.md",
     "2PC保证强一致性.md",
     "Raft协议.md",
+    "Mysql/MySQL面试.md",
+    "MVCC.md",
+    "设计模式.md",
+    "HTTP状态码.md",
+    "事务的ACID特性.md",
     "存储空间.md",
     "Elastic Search学习.md",
     "计网面试.md",
     "redis面试总结.md",
     "Redis/Redis集群.md",
     "redis为什么使用跳表而不是红黑树.md",
-    "世界起源.md",
     "Java总结.md",
     "Java/集合类.md",
     "Java并发总结/AQS与ReentrantLock.md",
@@ -244,10 +238,7 @@
     "Java/JVM-类加载机制.md",
     "系统设计/负载均衡术.md",
     "缓存数据一致性问题.md",
-    "序列化选型.md",
     "TCP报文结构.md",
-    "日志/2023-03-28.md",
-    "HR面 常见问题.md",
     "attachments/JavaWeb轻量级开发面试教程.pdf",
     "assets/image-20230323231743702.png",
     "未命名.canvas",
