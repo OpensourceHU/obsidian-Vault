@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redis面试总结.md",
-                "mode": "preview",
+                "file": "日志/2023-04-01.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95ae187c66d96f0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "理线方案.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redis面试总结.md",
+                "file": "理线方案.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redis面试总结.md",
+                "file": "理线方案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redis面试总结.md"
+                "file": "理线方案.md"
               }
             }
           },
@@ -154,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "redis面试总结.md",
+                "file": "理线方案.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -195,7 +209,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430
+    "width": 430,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,8 +223,15 @@
       "canvas:新建白板": false
     }
   },
-  "active": "998be0ec60d5b9cd",
+  "active": "95ae187c66d96f0d",
   "lastOpenFiles": [
+    "日志/2023-04-01.md",
+    "理线方案.md",
+    "redis面试总结.md",
+    "Mysql/MySQL面试.md",
+    "Mysql/索引覆盖 索引下推 回表.md",
+    "redis过期策略与删除策略.md",
+    "缓存数据一致性问题.md",
     "系统设计/负载均衡术.md",
     "Java拥塞队列.md",
     "互联网大中小厂科普.md",
@@ -223,19 +245,12 @@
     "序列化选型.md",
     "2PC保证强一致性.md",
     "Raft协议.md",
-    "Mysql/MySQL面试.md",
     "MVCC.md",
     "设计模式.md",
     "HTTP状态码.md",
     "存储空间.md",
     "Elastic Search学习.md",
     "计网面试.md",
-    "redis面试总结.md",
-    "Redis/Redis集群.md",
-    "redis为什么使用跳表而不是红黑树.md",
-    "Java总结.md",
-    "Java/集合类.md",
-    "Java并发总结/AQS与ReentrantLock.md",
     "attachments/JavaWeb轻量级开发面试教程.pdf",
     "assets/image-20230323231743702.png",
     "未命名.canvas",
