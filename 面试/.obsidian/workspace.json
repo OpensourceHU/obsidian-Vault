@@ -8,12 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "998be0ec60d5b9cd",
+            "id": "b6c209c49e37b620",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日志/2023-04-01.md",
+                "file": "OS/清华OS课程.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "865268ab7545a71e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mysql/MySQL概览.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +34,19 @@
             }
           },
           {
-            "id": "95ae187c66d96f0d",
+            "id": "ea038cc6aa87c545",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "理线方案.md",
+                "file": "数据库设计范式.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,8 +75,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "科普",
-                "matchingCase": false,
+                "query": "信号量",
+                "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": false,
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "理线方案.md",
+                "file": "OS/清华OS课程.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -119,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "理线方案.md",
+                "file": "OS/清华OS课程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "理线方案.md"
+                "file": "OS/清华OS课程.md"
               }
             }
           },
@@ -168,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "理线方案.md",
+                "file": "OS/清华OS课程.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -214,6 +226,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "digitalgarden:Digital Garden Publication Center": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
@@ -223,12 +236,19 @@
       "canvas:新建白板": false
     }
   },
-  "active": "95ae187c66d96f0d",
+  "active": "b6c209c49e37b620",
   "lastOpenFiles": [
+    "日志/2023-03-24.md",
+    "日志/2023-03-30.md",
     "日志/2023-04-01.md",
+    "日志/2023-04-02.md",
+    "Mysql/MySQL概览.md",
+    "Mysql/MySQL面试.md",
+    "世界起源.md",
+    "数据库设计范式.md",
+    "templates/publish.md",
     "理线方案.md",
     "redis面试总结.md",
-    "Mysql/MySQL面试.md",
     "Mysql/索引覆盖 索引下推 回表.md",
     "redis过期策略与删除策略.md",
     "缓存数据一致性问题.md",
@@ -238,19 +258,12 @@
     "Java/Volatile 与 Synchronizd关键字.md",
     "ABA问题.md",
     "事务的ACID特性.md",
-    "日志/2023-03-30.md",
-    "世界起源.md",
     "并发项目/阻塞 vs 异步.md",
     "面向对象设计的原则.md",
     "序列化选型.md",
     "2PC保证强一致性.md",
     "Raft协议.md",
     "MVCC.md",
-    "设计模式.md",
-    "HTTP状态码.md",
-    "存储空间.md",
-    "Elastic Search学习.md",
-    "计网面试.md",
     "attachments/JavaWeb轻量级开发面试教程.pdf",
     "assets/image-20230323231743702.png",
     "未命名.canvas",
