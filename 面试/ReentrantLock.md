@@ -1,3 +1,7 @@
+ReentrantLock有两个实现,公平版与非公平版本, 默认是非公平的
+它内部有两个类, FairSync与NonFairSync, 都是继承至AQS的  很多关于锁的操作,最后都反应到对这两个同步器的操作上
+
+
 ReentrantLock实现了tryLock()
 ```java
 final boolean tryLock() {  
