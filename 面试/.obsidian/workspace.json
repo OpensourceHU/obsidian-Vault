@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis/Redis集群.md",
+                "file": "2PC保证强一致性.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mysql/MySQL概览.md",
-                "mode": "source",
+                "file": "世界起源.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -46,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,8 +76,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IO",
-                "matchingCase": true,
+                "query": "system",
+                "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": false,
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redis/Redis集群.md",
+                "file": "世界起源.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redis/Redis集群.md",
+                "file": "世界起源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redis/Redis集群.md"
+                "file": "世界起源.md"
               }
             }
           },
@@ -180,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Redis/Redis集群.md",
+                "file": "世界起源.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -235,10 +236,21 @@
       "canvas:新建白板": false
     }
   },
-  "active": "b6c209c49e37b620",
+  "active": "865268ab7545a71e",
   "lastOpenFiles": [
-    "redis面试总结.md",
     "Mysql/MySQL面试.md",
+    "Mysql/MySQL概览.md",
+    "2PC保证强一致性.md",
+    "系统设计/系统设计Sytem Design.md",
+    "慢查询日志.md",
+    "世界起源.md",
+    "计网面试.md",
+    "TCP与UDP协议.md",
+    "OS/OS 面试总结.md",
+    "OS/进程 线程 协程.md",
+    "日志/2023-04-04.md",
+    "Redis/Redis集群.md",
+    "redis面试总结.md",
     "并发项目/五种IO模型.md",
     "Java总结.md",
     "Java/JVM-类加载机制.md",
@@ -255,18 +267,7 @@
     "Java/集合类.md",
     "Java/Java core 面试总结.md",
     "ThreadLocal.md",
-    "世界起源.md",
     "日志/2023-04-03.md",
-    "OS/清华OS课程.md",
-    "日志/2023-03-24.md",
-    "日志/2023-03-30.md",
-    "日志/2023-04-01.md",
-    "日志/2023-04-02.md",
-    "Mysql/MySQL概览.md",
-    "数据库设计范式.md",
-    "templates/publish.md",
-    "理线方案.md",
-    "Mysql/索引覆盖 索引下推 回表.md",
     "attachments/JavaWeb轻量级开发面试教程.pdf",
     "assets/image-20230323231743702.png",
     "未命名.canvas",
