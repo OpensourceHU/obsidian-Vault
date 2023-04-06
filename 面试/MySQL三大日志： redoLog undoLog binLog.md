@@ -4,7 +4,7 @@ Ref: [mysql45讲--日志系统](https://funnylog.gitee.io/mysql45/02%E8%AE%B2%E6
 回滚与MVCC做版本链时有用, 本质是将上一条操作的反向操作给记录下来
 
 ## redoLog
-当作写缓存(用两个指针实现的循环队列) 与 保证crashSafe
+Mysql是写前日志 redoLog当作写缓存(用两个指针实现的循环队列) 与 保证crashSafe
 
 ## binlog
 在server端的日志, 以二进制的形式记录了数据行的变化, 可以用来做主从同步等

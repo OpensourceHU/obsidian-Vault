@@ -24,13 +24,16 @@
             "id": "865268ab7545a71e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "世界起源.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "775554240da8265e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -47,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -76,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "system",
+                "query": "mysql",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -115,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "世界起源.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -132,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "世界起源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "世界起源.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "f251736e4a1b08b9",
@@ -181,7 +180,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "世界起源.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -212,7 +210,7 @@
                   "repelStrength": 10,
                   "linkStrength": 0.911458333333333,
                   "linkDistance": 99,
-                  "scale": 0.7132754626224487,
+                  "scale": 0.713275462622449,
                   "close": true
                 }
               }
@@ -236,38 +234,38 @@
       "canvas:新建白板": false
     }
   },
-  "active": "865268ab7545a71e",
+  "active": "775554240da8265e",
   "lastOpenFiles": [
-    "Mysql/MySQL面试.md",
-    "Mysql/MySQL概览.md",
-    "2PC保证强一致性.md",
-    "系统设计/系统设计Sytem Design.md",
-    "慢查询日志.md",
+    "实习经历怎么说.md",
     "世界起源.md",
-    "计网面试.md",
-    "TCP与UDP协议.md",
-    "OS/OS 面试总结.md",
-    "OS/进程 线程 协程.md",
-    "日志/2023-04-04.md",
-    "Redis/Redis集群.md",
+    "MQ.md",
+    "Mysql/MySQL面试.md",
+    "MySQL三大日志： redoLog undoLog binLog.md",
+    "MySQL锁事.md",
+    "Mysql/索引覆盖 索引下推 回表.md",
+    "Redis/Redis的数据结构与编码方式.md",
     "redis面试总结.md",
-    "并发项目/五种IO模型.md",
-    "Java总结.md",
-    "Java/JVM-类加载机制.md",
-    "Java/JVM内存区域.md",
-    "ZGC.md",
+    "RDB与AOF持久化.md",
+    "Java并发总结/AQS与ReentrantLock.md",
+    "ReentrantLock.md",
+    "OS/OS 面试总结.md",
+    "线程间相互通信.md",
+    "OS/清华OS课程.md",
+    "OS/进程 线程 协程.md",
+    "OS/死锁的产生原因及预防措施.md",
+    "计网面试.md",
+    "HTTP状态码.md",
+    "OSI七层网络结构.md",
+    "计网/HTTP与HTTPS协议.md",
+    "运维/RSA算法.md",
+    "TCP与UDP协议.md",
+    "TCP报文结构.md",
+    "缓存数据一致性问题.md",
+    "Java/多线程笔试题.md",
     "assets/java-jvm-zgc-5-1680571037359-4.png",
     "assets/java-jvm-zgc-5-1680571037359-4-1680571037359-5.png",
     "assets/java-jvm-zgc-1-1680570995951-1.png",
     "assets/java-jvm-zgc-1-1680570995951-1-1680570995951-2.png",
-    "Java/Java垃圾回收算法.md",
-    "Java并发总结/线程池.md",
-    "Java并发总结/AQS与ReentrantLock.md",
-    "ReentrantLock.md",
-    "Java/集合类.md",
-    "Java/Java core 面试总结.md",
-    "ThreadLocal.md",
-    "日志/2023-04-03.md",
     "attachments/JavaWeb轻量级开发面试教程.pdf",
     "assets/image-20230323231743702.png",
     "未命名.canvas",
