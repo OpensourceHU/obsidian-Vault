@@ -32,8 +32,13 @@
             "id": "775554240da8265e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "HR面 常见问题.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
             }
           },
           {
@@ -79,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mysql",
+                "query": "HR",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -118,6 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HR面 常见问题.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -134,6 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HR面 常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +162,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HR面 常见问题.md"
+              }
             }
           },
           {
@@ -180,6 +189,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "HR面 常见问题.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -236,11 +246,11 @@
   },
   "active": "775554240da8265e",
   "lastOpenFiles": [
+    "MySQL三大日志： redoLog undoLog binLog.md",
     "实习经历怎么说.md",
     "世界起源.md",
     "MQ.md",
     "Mysql/MySQL面试.md",
-    "MySQL三大日志： redoLog undoLog binLog.md",
     "MySQL锁事.md",
     "Mysql/索引覆盖 索引下推 回表.md",
     "Redis/Redis的数据结构与编码方式.md",
