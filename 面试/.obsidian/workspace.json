@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "缓存数据一致性问题.md",
+                "file": "序列化选型.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "实习",
+                "query": "序列化",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "缓存数据一致性问题.md",
+                "file": "序列化选型.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "缓存数据一致性问题.md",
+                "file": "序列化选型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "缓存数据一致性问题.md"
+                "file": "序列化选型.md"
               }
             }
           },
@@ -189,7 +189,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "缓存数据一致性问题.md",
+                "file": "序列化选型.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -230,7 +230,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430
+    "width": 430,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,8 +247,8 @@
   },
   "active": "ea038cc6aa87c545",
   "lastOpenFiles": [
-    "实习经历怎么说.md",
     "缓存数据一致性问题.md",
+    "实习经历怎么说.md",
     "数据库设计范式.md",
     "Redis/Redis的数据结构与编码方式.md",
     "redis面试总结.md",
