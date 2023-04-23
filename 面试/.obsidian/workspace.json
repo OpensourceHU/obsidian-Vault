@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "序列化选型.md",
+                "file": "日志/2023-04-22.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -101,8 +101,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "序列化选型.md",
+                "file": "日志/2023-04-22.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "序列化选型.md",
+                "file": "日志/2023-04-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "序列化选型.md"
+                "file": "日志/2023-04-22.md"
               }
             }
           },
@@ -189,7 +188,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "序列化选型.md",
+                "file": "日志/2023-04-22.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -247,6 +246,9 @@
   },
   "active": "ea038cc6aa87c545",
   "lastOpenFiles": [
+    "templates/Daily Todo List.md",
+    "日志/2023-04-22.md",
+    "序列化选型.md",
     "缓存数据一致性问题.md",
     "实习经历怎么说.md",
     "数据库设计范式.md",
@@ -270,9 +272,6 @@
     "OS/清华OS课程.md",
     "OS/进程 线程 协程.md",
     "OS/死锁的产生原因及预防措施.md",
-    "计网面试.md",
-    "HTTP状态码.md",
-    "OSI七层网络结构.md",
     "assets/java-jvm-zgc-5-1680571037359-4.png",
     "assets/java-jvm-zgc-5-1680571037359-4-1680571037359-5.png",
     "assets/java-jvm-zgc-1-1680570995951-1.png",

@@ -1,5 +1,5 @@
 {
   "folder": "日志",
   "autorun": true,
-  "template": "templates/Check List"
+  "template": "templates/Daily Todo List"
 }
