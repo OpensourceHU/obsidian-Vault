@@ -47,8 +47,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日志/2023-04-22.md",
-                "mode": "source",
+                "file": "并发项目/五种IO模型.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "序列化",
+                "query": "IO模型",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -101,7 +101,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日志/2023-04-22.md",
+                "file": "并发项目/五种IO模型.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日志/2023-04-22.md",
+                "file": "并发项目/五种IO模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日志/2023-04-22.md"
+                "file": "并发项目/五种IO模型.md"
               }
             }
           },
@@ -188,7 +189,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "日志/2023-04-22.md",
+                "file": "并发项目/五种IO模型.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -246,8 +247,9 @@
   },
   "active": "ea038cc6aa87c545",
   "lastOpenFiles": [
-    "templates/Daily Todo List.md",
+    "日志/2023-05-09.md",
     "日志/2023-04-22.md",
+    "templates/Daily Todo List.md",
     "序列化选型.md",
     "缓存数据一致性问题.md",
     "实习经历怎么说.md",
@@ -271,7 +273,6 @@
     "线程间相互通信.md",
     "OS/清华OS课程.md",
     "OS/进程 线程 协程.md",
-    "OS/死锁的产生原因及预防措施.md",
     "assets/java-jvm-zgc-5-1680571037359-4.png",
     "assets/java-jvm-zgc-5-1680571037359-4-1680571037359-5.png",
     "assets/java-jvm-zgc-1-1680570995951-1.png",
